@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#212529, #343a40, #495057);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-top: -45px;
+    margin-bottom: 50px;
+    color: #ddd;
+    transition: all 0.2s;
+}
+
+.hero h1:hover {
+    color: #adb5bd;
+    text-shadow: 0px 10px 10px #000000;
+    letter-spacing: 5px;
+}
+
+textarea {
+    height: 250px;
+    width: 600px;
+    background: #adb5bd;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 12px;
+    resize: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Courier New", Courier, monospace;
+}
+
+textarea:hover {
+    box-shadow: 0px 0px 18px 6px #212529;
+}
+
+ button {
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #212529;
+    transition-duration: 0.4s;
+    gap: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+}
+
+button:hover {
+    box-shadow: 0px 0px 12px 4px #adb5bd;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
